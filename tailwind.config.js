@@ -1,7 +1,11 @@
 /** @format */
 
 module.exports = {
-  purge: [],
+  purge: [
+    "./src/*.{js,jsx,ts,tsx}",
+    "./src/components/*.{js,jsx,ts,tsx}",
+    "./src/components/**/*.{js,jsx,ts,tsx}",
+  ],
   darkMode: false,
   theme: {
     extend: {},
